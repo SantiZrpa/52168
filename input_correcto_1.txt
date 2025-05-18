@@ -1,0 +1,4 @@
+variable saludo = "Hola ";
+variable nombre = "Juan";
+mensaje = saludo + nombre;
+imprimir(mensaje);

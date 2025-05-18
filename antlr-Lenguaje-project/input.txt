@@ -1,0 +1,3 @@
+variable saludo = "Hola mundo";
+enMayusc = mayusculas(saludo);
+imprimir(enMayusc);

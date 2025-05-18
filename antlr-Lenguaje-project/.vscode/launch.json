@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "ANTLR4: Visualizar Árbol",
+      "type": "antlr-debug",
+      "request": "launch",
+      "input": "${workspaceFolder}/input.txt",
+      "grammar": "${workspaceFolder}/Lenguaje.g4",
+      "startRule": "programa",
+      "printParseTree": true,
+      "visualParseTree": true
+    }
+  ]
+}

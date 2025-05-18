@@ -1,0 +1,11 @@
+{
+  "name": "analizador-antlr-52168",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "antlr4": "^4.13.2"
+  }
+}

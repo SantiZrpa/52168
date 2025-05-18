@@ -1,0 +1,3 @@
+vari@ble mensaje = "Hola mundo"
+imppresion(mensaje;
+
