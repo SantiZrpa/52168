@@ -15,7 +15,7 @@ try {
      // Variable para rastrear errores
     let hasErrors = false;
 
-    // Mensaje de introduccion
+    // Mensaje de introducción
     console.log('\nANÁLISIS LÉXICO Y SINTÁCTICO:');
     
     // Configurar lexer con manejo de errores
@@ -50,12 +50,12 @@ try {
         console.log('\nSe encontraron errores durante el análisis.');
     }
 
-    // Mostrar tokens 
+    // Mostrar tokens y lexemas 
     console.log("\nTABLA DE TOKENS Y LEXEMAS:");
     try {
         tokens.fill();
     
-        // Obtener nombres de tokens de manera segura
+        // Obtener nombres de tokens 
         const getTokenName = (tokenType) => {
             // Obtener nombre simbolico si está definido
             const symbolic = LenguajeLexer.symbolicNames?.[tokenType];
@@ -101,7 +101,7 @@ try {
     console.log(jsCode);
     console.log('\nResultado:');
     
-    eval(jsCode); // Ejecutar el código generado
+    eval(jsCode); // Ejecutar el código generado (verificar)
     
 }
 
