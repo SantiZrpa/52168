@@ -103,7 +103,7 @@ code .
 1. Acceder al siguiente link: https://github.com/SantiZrpa/52168 
 2. Clickear `<> Code` (boton verde que aparece arriba de los archivos)  
 3. Seleccionar la opción "Download ZIP" 
-     ![alt text](screenshots/image-3.png)
+ ![alt text](screenshots/image-3.png)
     
 4. Una vez instalada, ingrese a Visual Studio Code
 5. Dentro de VS Code, seleccione la opción "Open Folder..." y seleccione la carpeta `antlr-Lenguaje-project`, buscándola donde usted la haya instalado (debe acceder a la carpeta `52168.zip`, luego a la carpeta `52168` y luego a la carpeta correcta ya mencionada) 
@@ -125,17 +125,17 @@ Al seleccionar el archivo Lenguaje.g4, usted podrá ver la gramática propuesta 
  1. En el repositorio de github usted encontrará unos archivos llamados *`input_correcto_1.txt`*, *`input_correcto_2.txt`*, *`input_incorrecto_1.txt`* e *`input_incorrecto_2.txt`*. En el proyecto dentro de VS Code, edite el archivo `input.txt`, agregando el contenido del ejemplo que usted desee. Una vez que lo tenga, es importante que guarde este archivo presionando `Ctrl + S`.
  
  2. Para ejecutar el programa, abra una terminal (En la barra superior de VS Code seleccione Terminal → New Terminal). Con una terminal "powershell" iniciada (Node.js), escriba y ejecute el siguiente comando: `node src index` o simplemente `node src`. También, si es de su gusto, puede ejecutar este comando en una consola de comandos, siempre y cuando esté en la dirección de la carpeta `antlr-Lenguaje-project`, es decir, debería ejecutarlo de una manera tal que así:
- ![alt text](screenshots/image-11.png)
+    ![alt text](screenshots/image-11.png)
 
   - Otra opción es abrir una terminal "Command Prompt", seleccionando la "flecha hacia abajo" al lado del signo "+" en el panel de su terminal, y ejecutar el programa con el mismo comando o con el comando `cmd start` (Éste último solo funciona para este tipo de terminal).
   ![alt text](screenshots/image-4.png)
  
  3. Entre al archivo `Lenguaje.g4` y haga click en el botón de la extensión de ANTLR en la barra lateral izquierda de VS Code. Si el plugin de ANTLR quedó correctamente instalado, debería poder ver los tokens y las reglas gramaticales identificadas como se muestra en la figura:
- ![alt text](screenshots/image-9.png)
+   ![alt text](screenshots/image-9.png)
  
     *ADVERTENCIA:* 
     Si al seguir estos pasos no le aparece contenido en "Lexer Tokens", "Parser Rules", etc. dentro de la extensión de ANTLR, es probable que no se haya instalado de manera correcta el plugin de ANTLR en su VS Code, o que tenga un error con la versión de Java instalada. Para esto, verifique que instaló de manera correcta la extensión de ANTLR y su configuración, siguiendo todos los pasos previamente mencionados. Si es así, desinstale el plugin y vuelva a instalarlo, verifique si la configuración es correcta y reinicie VS Code para que se guarden los cambios. Si el problema persiste, verifique si su versión de Java instalada es Java JDK 17+. De no ser así, probablemente usted pueda ejecutar el programa pero no pueda depurar el archivo Lenguaje.g4, ya que le aparecerá una advertencia, posiblemente similar a esta:
-    ![alt text](screenshots/image-10.png)
+     ![alt text](screenshots/image-10.png)
 
     Una vez que haya actualizado Java, posiblemente tenga que agregar la dirección de este a "PATH" en las variables del entorno del sistema. 
    
@@ -151,12 +151,12 @@ Al seleccionar el archivo Lenguaje.g4, usted podrá ver la gramática propuesta 
  ## &nbsp; 
  **Si elige un input correcto**:
  - Al ejecutar el programa, le aparecerá algo similar a esto:
- ![alt text](screenshots/image-7.png)
+   ![alt text](screenshots/image-7.png)
 
  ## &nbsp; 
  **Si elige un input incorrecto**:
  - Al ejecutar el programa, le aparecerá algo similar a esto:
- ![alt text](screenshots/image-8.png)
+   ![alt text](screenshots/image-8.png)
 
  ## &nbsp; 
  **Si el input.txt se encuentra vacio**:
