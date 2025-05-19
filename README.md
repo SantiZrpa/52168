@@ -147,6 +147,7 @@ Al seleccionar el archivo Lenguaje.g4, usted podrá ver la gramática propuesta 
   - Una vez dentro del archivo, iniciar el modo de depuración presionando F5 en su computadora o haciendo click en el botón "Run and Debug" que se encuentra en la barra izquierda de VS Code:
    ![alt text](screenshots/image-5.png)
 
+
   - Si todo sale bien, usted podrá visualizar el árbol sintáctico de una manera similar a esto (varía según el contenido del archivo input.txt):
    ![alt text](screenshots/image-6.png)
 
@@ -159,6 +160,7 @@ Al seleccionar el archivo Lenguaje.g4, usted podrá ver la gramática propuesta 
  **Si elige un input incorrecto**:
  - Al ejecutar el programa, le aparecerá algo similar a esto:
    ![alt text](screenshots/image-8.png)
+
 
  ## &nbsp; 
  **Si el input.txt se encuentra vacio**:
