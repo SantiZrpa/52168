@@ -161,12 +161,13 @@ Al seleccionar el archivo Lenguaje.g4, usted podrá ver la gramática propuesta 
    ![image](https://github.com/user-attachments/assets/150bcbc3-f9af-4fc6-aca3-ff9cc5780df4)
 
  ## &nbsp; 
- **Si el input.txt se encuentra vacio**:
- El programa se ejecutará; pero la tabla de tokens, el árbol de análisis sintáctico, y la interpretación del codigo se encontrarán sin contenido. Además, al estar el archivo vacío, no se detectarán erorres léxicos ni sintácticos.
+ **Si el input.txt se encuentra vacío**:
+   - El programa se ejecutará; pero la tabla de tokens, el árbol de análisis sintáctico, y la interpretación del codigo se encontrarán sin contenido. Además, al estar el archivo vacío, no se detectarán erorres léxicos ni sintácticos.
 
 ## Créditos
-Proyecto desarrollado como parte de la materia Sintáxis y Semántica de los Lenguajes - Universidad Tecnológica Nacional - FRM
-Bibliografía importante: Guía de Estudio Construcción de Analizador con ANTLR4 + JavaScript https://campus.frm.utn.edu.ar/pluginfile.php/68894/mod_resource/content/3/Gu%C3%ADa%20de%20Estudio%20Construcci%C3%B3n%20de%20Analizador%20con%20ANTLR4%20%2B%20JavaScript.pdf
+ - Proyecto desarrollado como parte de la materia Sintáxis y Semántica de los Lenguajes 
+ - Universidad Tecnológica Nacional - FRM
+ - Bibliografía importante: Guía de Estudio Construcción de Analizador con ANTLR4 + JavaScript https://campus.frm.utn.edu.ar/pluginfile.php/68894/mod_resource/content/3/Gu%C3%ADa%20de%20Estudio%20Construcci%C3%B3n%20de%20Analizador%20con%20ANTLR4%20%2B%20JavaScript.pdf
  ## Autor
  - Nombre: Santiago Zerpa
  - Legajo: 52168
