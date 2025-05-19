@@ -6,7 +6,7 @@ Este es un archivo README para el repositorio. A continuación, se describe el p
 
 Se le recomienda a usted realizar primero la lectura completa de este archivo antes de seguir cualquier paso mencionado.
 
-# Descripcion
+# Descripción
 
 Este proyecto consiste en un analizador léxico y sintáctico desarrollado con ANTLR4 y JavaScript (Node.js), basado en una gramática simple. El analizador procesa archivos de texto que contienen un código fuente; lo analiza léxica y sintácticamente e informa si hay errores, genera la tabla de tokens y lexemas correspondiente, construye el árbol sintáctico concreto de la entrada, y traduce el código fuente al lenguaje JavaScript, para luego ejecutarlo.
 
@@ -52,12 +52,12 @@ git version 2.43.0.windows.1
 ```
 ### Configuración de VS Code para trabajar con ANTLR
 - Una vez que usted verifique que está todo instalado correctamente, debe instalar la *Extensión de ANTLR para VS Code* .
- 1. En VS Code, presione `Ctrl+Shift+X`, o vaya a la sección de "Extensions" (bloque cuadrado con un cuadrante separado) que se encuentra en la barra lateral izquierda, y busque: "ANTLR4 grammar syntax support".
+ 1. En VS Code, presione `Ctrl + Shift + X`, o vaya a la sección de "Extensions" (bloque cuadrado con un cuadrante separado) que se encuentra en la barra lateral izquierda, y busque: "ANTLR4 grammar syntax support".
  2. Instale la extensión de Mike Lischke.
  ![alt text](screenshots/image.png)
  *IMPORTANTE:* Luego de instalar la extensión, reinicie VS Code para que tome los cambios.
 
- 3. Configure las preferencias de generación de código de ANTLR: vaya al menú Archivo/Preferencias/Configuración ( CTRL + ,) y busque las preferencias de ANTLR. Baje hasta la sección Antlr4:Generation y edite `settings.json.`
+ 3. Configure las preferencias de generación de código de ANTLR: vaya al menú Archivo/Preferencias/Configuración presionando `Ctrl + ,` y busque las preferencias de ANTLR. Baje hasta la sección Antlr4:Generation y edite `settings.json.`
  ![alt text](screenshots/image-1.png)
 
  La configuracion le debe quedar del siguiente modo:
@@ -71,7 +71,7 @@ git version 2.43.0.windows.1
         "outputDir": "./generated"
     } 
  ```
- *IMPORTANTE:* Guarde el archivo de configuración antes de continuar presionando `CTRL+S`.
+ *IMPORTANTE:* Guarde el archivo de configuración antes de continuar presionando `Ctrl + S`.
 
 
 ## Instalación
@@ -104,7 +104,7 @@ code .
 2. Clickear `<> Code` (boton verde que aparece arriba de los archivos)  
 3. Seleccionar la opción "Download ZIP" 
      ![alt text](screenshots/image-3.png)
-    (imagen extraída de otro proyecto a modo de ejemplo)
+    
 4. Una vez instalada, ingrese a Visual Studio Code
 5. Dentro de VS Code, seleccione la opción "Open Folder..." y seleccione la carpeta `antlr-Lenguaje-project`, buscándola donde usted la haya instalado (debe acceder a la carpeta `52168.zip`, luego a la carpeta `52168` y luego a la carpeta correcta ya mencionada) 
  ![alt text](screenshots/image-2.png)
@@ -124,11 +124,23 @@ Al seleccionar el archivo Lenguaje.g4, usted podrá ver la gramática propuesta 
 - Para la ejecución del programa, siga los siguientes pasos:
  1. En el repositorio de github usted encontrará unos archivos llamados *`input_correcto_1.txt`*, *`input_correcto_2.txt`*, *`input_incorrecto_1.txt`* e *`input_incorrecto_2.txt`*. En el proyecto dentro de VS Code, edite el archivo `input.txt`, agregando el contenido del ejemplo que usted desee. Una vez que lo tenga, es importante que guarde este archivo presionando `Ctrl + S`.
  
- 2. Para ejecutar el programa, abra una terminal (En la barra superior de VS Code seleccione Terminal → New Terminal). Con una terminal "powershell" iniciada (Node.js), escriba y ejecute el siguiente comando: `node src index` o simplemente `node src`. 
+ 2. Para ejecutar el programa, abra una terminal (En la barra superior de VS Code seleccione Terminal → New Terminal). Con una terminal "powershell" iniciada (Node.js), escriba y ejecute el siguiente comando: `node src index` o simplemente `node src`. También, si es de su gusto, puede ejecutar este comando en una consola de comandos, siempre y cuando esté en la dirección de la carpeta `antlr-Lenguaje-project`, es decir, debería ejecutarlo de una manera tal que así:
+ ![alt text](screenshots/image-11.png)
+
   - Otra opción es abrir una terminal "Command Prompt", seleccionando la "flecha hacia abajo" al lado del signo "+" en el panel de su terminal, y ejecutar el programa con el mismo comando o con el comando `cmd start` (Éste último solo funciona para este tipo de terminal).
   ![alt text](screenshots/image-4.png)
  
- 3. Para generar y visualizar el árbol sintáctico, usted deberá depurar la gramática. Para esto usted debe:
+ 3. Entre al archivo `Lenguaje.g4` y haga click en el botón de la extensión de ANTLR en la barra lateral izquierda de VS Code. Si el plugin de ANTLR quedó correctamente instalado, debería poder ver los tokens y las reglas gramaticales identificadas como se muestra en la figura:
+ ![alt text](screenshots/image-9.png)
+   ### &nbsp; 
+   #### *ADVERTENCIA:* 
+    Si al seguir estos pasos no le aparece contenido en "Lexer Tokens", "Parser Rules", etc. dentro de la extensión de ANTLR, es probable que no se haya instalado de manera correcta el plugin de ANTLR en su VS Code, o que tenga un error con la versión de Java instalada. Para esto, verifique que instaló de manera correcta la extensión de ANTLR y su configuración, siguiendo todos los pasos previamente mencionados. Si es así, desinstale el plugin y vuelva a instalarlo, verifique si la configuración es correcta y reinicie VS Code para que se guarden los cambios. Si el problema persiste, verifique si su versión de Java instalada es Java JDK 17+. De no ser así, probablemente usted pueda ejecutar el programa pero no pueda depurar el archivo Lenguaje.g4, ya que le aparecerá una advertencia, posiblemente similar a esta:
+    ![alt text](screenshots/image-10.png)
+
+    Una vez que haya actualizado Java, posiblemente tenga que agregar la dirección de este a "PATH" en las variables del entorno del sistema. 
+   ###
+ 
+ 4. Para generar y visualizar el árbol sintáctico, usted deberá depurar la gramática. Para esto usted debe:
   - Seleccionar el archivo de la gramática `Lenguaje.g4`.
   - Una vez dentro del archivo, iniciar el modo de depuración presionando F5 en su computadora o haciendo click en el botón "Run and Debug" que se encuentra en la barra izquierda de VS Code.
   ![alt text](screenshots/image-5.png)
