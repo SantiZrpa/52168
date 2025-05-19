@@ -131,7 +131,7 @@ Al seleccionar el archivo Lenguaje.g4, usted podrá ver la gramática propuesta 
   ![alt text](screenshots/image-4.png)
  
  3. Entre al archivo `Lenguaje.g4` y haga click en el botón de la extensión de ANTLR en la barra lateral izquierda de VS Code. Si el plugin de ANTLR quedó correctamente instalado, debería poder ver los tokens y las reglas gramaticales identificadas como se muestra en la figura:
-   ![alt text](screenshots/image-9.png)
+     ![alt text](screenshots/image-9.png)
  
     *ADVERTENCIA:* 
     Si al seguir estos pasos no le aparece contenido en "Lexer Tokens", "Parser Rules", etc. dentro de la extensión de ANTLR, es probable que no se haya instalado de manera correcta el plugin de ANTLR en su VS Code, o que tenga un error con la versión de Java instalada. Para esto, verifique que instaló de manera correcta la extensión de ANTLR y su configuración, siguiendo todos los pasos previamente mencionados. Si es así, desinstale el plugin y vuelva a instalarlo, verifique si la configuración es correcta y reinicie VS Code para que se guarden los cambios. Si el problema persiste, verifique si su versión de Java instalada es Java JDK 17+. De no ser así, probablemente usted pueda ejecutar el programa pero no pueda depurar el archivo Lenguaje.g4, ya que le aparecerá una advertencia, posiblemente similar a esta:
@@ -143,7 +143,7 @@ Al seleccionar el archivo Lenguaje.g4, usted podrá ver la gramática propuesta 
  4. Para generar y visualizar el árbol sintáctico, usted deberá depurar la gramática. Para esto usted debe:
   - Seleccionar el archivo de la gramática `Lenguaje.g4`.
   - Una vez dentro del archivo, iniciar el modo de depuración presionando F5 en su computadora o haciendo click en el botón "Run and Debug" que se encuentra en la barra izquierda de VS Code.
-  ![alt text](screenshots/image-5.png)
+     ![alt text](screenshots/image-5.png)
 
   - Si todo sale bien, usted podrá visualizar el árbol sintáctico de una manera similar a esto (varía según el contenido del archivo input.txt):
    ![alt text](screenshots/image-6.png)
@@ -164,6 +164,7 @@ Al seleccionar el archivo Lenguaje.g4, usted podrá ver la gramática propuesta 
 
 ## Créditos
 Proyecto desarrollado como parte de la materia Sintáxis y Semántica de los Lenguajes - Universidad Tecnológica Nacional - FRM
+Bibliografía importante: Guía de Estudio Construcción de Analizador con ANTLR4 + JavaScript https://campus.frm.utn.edu.ar/pluginfile.php/68894/mod_resource/content/3/Gu%C3%ADa%20de%20Estudio%20Construcci%C3%B3n%20de%20Analizador%20con%20ANTLR4%20%2B%20JavaScript.pdf
  ## Autor
  - Nombre: Santiago Zerpa
  - Legajo: 52168
