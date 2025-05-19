@@ -108,7 +108,7 @@ code .
  ![alt text](screenshots/image-3.png)
     
 4. Una vez instalada, ingrese a Visual Studio Code
-5. Dentro de VS Code, seleccione la opción "Open Folder..." y seleccione la carpeta `antlr-Lenguaje-project`, buscándola donde usted la haya instalado (debe acceder a la carpeta `52168.zip`, luego a la carpeta `52168` y luego a la carpeta correcta ya mencionada) 
+5. Dentro de VS Code, seleccione la opción "Open Folder..." y seleccione la carpeta `antlr-Lenguaje-project`, buscándola donde usted la haya instalado (debe acceder a la carpeta `52168.zip`, luego a la carpeta `52168` y luego a la carpeta correcta ya mencionada).
  ![alt text](screenshots/image-2.png)
 
 ## ADVERTENCIA!!
