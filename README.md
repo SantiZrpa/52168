@@ -98,6 +98,8 @@ code .
 ```
 - Si todo está en orden, deberia usted poder ver y editar el proyecto en su VS Code.
 
+ *Nota:* Los archivos generados por ANTLR ya están incluídos en el proyecto. No es necesario ejecutar los comandos de ANTLR salvo que se hagan cambios en la gramática.
+
  ## Otra Alternativa para clonar el proyecto (mas rápida y simple para algunos usuarios)
 
 1. Acceder al siguiente link: https://github.com/SantiZrpa/52168 
