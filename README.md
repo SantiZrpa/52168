@@ -142,8 +142,7 @@ Al seleccionar el archivo Lenguaje.g4, usted podrá ver la gramática propuesta 
  
  4. Para generar y visualizar el árbol sintáctico, usted deberá depurar la gramática. Para esto usted debe:
   - Seleccionar el archivo de la gramática `Lenguaje.g4`.
-  - Una vez dentro del archivo, iniciar el modo de depuración presionando F5 en su computadora o haciendo click en el botón "Run and Debug" que se encuentra en la barra izquierda de VS Code.
-     ![alt text](screenshots/image-5.png)
+  - Una vez dentro del archivo, iniciar el modo de depuración presionando F5 en su computadora o haciendo click en el botón "Run and Debug" que se encuentra en la barra izquierda de VS Code.![alt text](screenshots/image-5.png)
 
   - Si todo sale bien, usted podrá visualizar el árbol sintáctico de una manera similar a esto (varía según el contenido del archivo input.txt):
    ![alt text](screenshots/image-6.png)
